@@ -1,0 +1,58 @@
+.max{
+    height:398px;
+    width: 796px;
+}
+
+.min{
+    height:100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.prevup{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(./previewsup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin-right: 5%;
+}
+
+.nexup{
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url(./nextup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    margin-left: 5%;
+}
+
+.push{
+    background-size: 80% auto;
+    opacity: 0.5;
+}
+
+.min:hover{
+    opacity: 0.5;
+}
+
+body{
+    text-align: center;
+    background-image: url('body-background.jpg');
+    background-attachment: fixed;
+}
+
+.karclass{
+    display: inline-block;
+    height:100px;
+    width: 1200px;
+}
